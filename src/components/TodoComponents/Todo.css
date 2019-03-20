@@ -1,0 +1,18 @@
+.todo-card {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    width: 400px;
+    margin: 16px auto;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    background-color: rgba(73, 71, 71, 0.7);
+    padding: 1rem;
+    flex-flow: column; 
+}
+
+.todo-info {
+    text-align: start;
+    padding-left: 24px;
+  }
